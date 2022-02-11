@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comforter&family=Lobster&display=swap');
+
+@font-face {
+    font-family: IBMPlexSerif;
+    src: url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Bold.woff2), format(woff2), url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Bold.woff), format(woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: IBMPlexSerif;
+    src: url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Light.woff2), format(woff2), url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Light.woff), format(woff);
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IBMPlexSerif;
+    src: url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Regular.woff2), format(woff2), url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Regular.woff), format(woff);
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+body{
+    font-family: Lobster;
+    font-weight: 400;
+    font-size: 18px;
+}
+h1{
+    font-size: 30px;
+    color: rgb(127, 127, 202);
+    text-align: center;
+    border-bottom: 2px dotted rgb(91, 19, 133);
+}
+h2{
+    font-size: 25px;
+    color: rgb(151, 101, 197);
+    margin-bottom: 10px;
+}
+header{
+    margin: 10px 10px 15px 0;
+}
+header p{
+    outline: 5px double rgba(0, 0, 0, 0.411);
+    margin-bottom: 10px;
+}
+.block-1 {
+    font-family: IBMPlexSerif;
+    border: 2px solid aqua;
+    box-shadow: 5px 5px 5px 5px rgb(59, 219, 211);
+    margin: 0 10px 15px 0;
+}
+.img1{
+    border-radius: 100px;
+    margin: 0 20px 10px 25px;
+}
+.list {
+    font-family: Caveat;
+    font-size: 24px;
+    color: rgb(58, 106, 179);
+}
+.block-2 {
+    margin: 0 10px 15px 5px;
+    border-left: 5px dashed rgb(93, 5, 5);
+    padding: 25px;
+}
+.block-3 {
+    margin-bottom: 10px;
+}
+.para3-1 {
+    box-shadow: inset 3px 3px 10px 5px rgb(190, 16, 181);
+    margin-bottom: 30px;
+}
+.img2{
+    border: 5px solid rgb(37, 35, 172);
+}
+.block-4 {
+    line-height: 1.2;
+    opacity: 0.6;
+}
+span{
+    border-bottom: 3px dashed rgb(195, 35, 35);
+}
+.block-5 {
+    font-family: Caveat;
+    font-size: 20px;
+    color: rgb(231, 200, 27);
+}
+.para5-1, .para5-2, .para5-3, .para5-4{
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+.img3{
+height: 500px;
+width: 500px;
+border-radius: 50%;
+margin-left: 20px;
+margin-bottom: 25px;
+}
+.bottom-link {
+    display: inline-block;
+    background-color: rgb(207, 80, 80);
+    padding: 40px;
+    border-radius: 77% 23% 63% 37% / 59% 25% 75% 41% ;
+    color: antiquewhite;
+    width: 300px;
+    margin: 0 auto;
+}
